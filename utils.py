@@ -6,7 +6,7 @@ import google.generativeai as genai
 
 
 # Configure the Gemini API (you'll need to set up your API key)
-genai.configure(api_key='AIzaSyDM2ks9JroT_5fG2WD4tfkHX6bzejhTKqo')
+genai.configure(api_key='o')
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Helper function to convert PDF content into images
